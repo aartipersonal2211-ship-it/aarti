@@ -1,0 +1,21 @@
+class square 
+{
+int length;
+square (int l) 
+{
+    length = l;
+	System.out.println("default constructor is calling");
+}  
+ int area()
+{
+	return(length*length);
+}
+}
+class PC1
+{
+	public static void main(String args[])
+{
+	square s=new square(20);
+	System.out.println("the area of square"+s.area());
+}
+}	
